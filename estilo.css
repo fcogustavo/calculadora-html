@@ -1,0 +1,56 @@
+body {
+    background: rgb(110, 177, 240);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10pt;
+    width: 400px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356);
+}
+
+div#buttons {
+    text-align: center;
+    margin-top: 10pt;
+}
+
+p#info {
+    margin-top: -2pt;
+    text-align: left;
+    font: italic 15pt arial;
+    color: rgb(83, 78, 78);
+}
+
+div#type {
+    width: 320px;
+    height: 150px;
+    text-align: right;
+    border-style: groove;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356);
+    border-radius: 5pt;
+    margin: auto;
+    overflow: auto;
+}
+
+input {
+    width: 45pt;
+    height: 35pt;
+    margin-bottom: 5pt;
+    font: normal 15pt Arial;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

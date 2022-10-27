@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div id="type">
+            <p id="info">rad</p>
+            <p id="res"></p>
+        </div>
+        <div id="buttons">
+            <input type="button" class="bt" value="AC" id="AC" onclick="clean()">
+            <input type="button" class="bt" value="π" id="π" onclick="numberPi()">
+            <input type="button" class="bt" value="(" id="(" onclick="parenthesesOpen()">
+            <input type="button" class="bt" value=")" id=")" onclick="parenthesesClose()">
+            <input type="button" class="bt" value="/" id="/" onclick="division()">
+            <br><input type="button" class="bt" value="√" id="√" onclick="sqrt()">
+            <input type="button" class="bt" value="7" id="7" onclick="number7()">
+            <input type="button" class="bt" value="8" id="8" onclick="number8()">
+            <input type="button" class="bt" value="9" id="9" onclick="number9()">
+            <input type="button" class="bt" value="x" id="x" onclick="multip()">
+            <br><input type="button" class="bt" value="^" id="^" onclick="pot()">
+            <input type="button" class="bt" value="4" id="4" onclick="number4()">
+            <input type="button" class="bt" value="5" id="5" onclick="number5()">
+            <input type="button" class="bt" value="6" id="6" onclick="number6()">
+            <input type="button" class="bt" value="-" id="-" onclick="subt()">
+            <br><input type="button" class="bt" value="!" id="!" onclick="fact()">
+            <input type="button" class="bt" value="1" id="1" onclick="number1()">
+            <input type="button" class="bt" value="2" id="2" onclick="number2()">
+            <input type="button" class="bt" value="3" id="3" onclick="number3()">
+            <input type="button" class="bt" value="+" id="+" onclick="sum()">
+            <br><input type="button" class="bt" value="▼" id="more" onclick="moreButtons()">
+            <input type="button" class="bt" value="." id="." onclick="point()">
+            <input type="button" class="bt" value="0" id="0" onclick="number0()">
+            <input type="button" class="bt" value="←" id="←" onclick="buttonDel()">
+            <input type="button" class="bt" value="=" id="=" onclick="answer()">
+        </div>
+    </section>
+    <footer>
+        <a href="https://github.com/fcogustavo"><p>by fcogustavo</p></a>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
