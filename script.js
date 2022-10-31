@@ -773,7 +773,7 @@ a um outro aberto de índice conhecido numa lista:*/
         solveParentheses(list)
         validateExpression(list)
         let answer = resolution(list)
-        list.splice(0, 3, answer)
+        list.splice(0, 3)
         let txtanswer = `<strong>${Number(answer.toFixed(12))}</strong>`
         writeInElement(res, txtanswer)
     }
