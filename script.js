@@ -790,6 +790,7 @@ a um outro aberto de índice conhecido numa lista:*/
 
 //7. ADIÇÃO DE ENTRADAS PELO TECLADO:
     document.addEventListener('keyup', function(event) {
+        console.log(event.key)
         switch(event.key) {
             case '0':
                 number0()
@@ -847,6 +848,12 @@ a um outro aberto de índice conhecido numa lista:*/
                 break
             case 'Enter':
                 answer()
+                break
+            case '(':
+                parenthesesOpen()
+                break
+            case ')':
+                parenthesesClose()
                 break
         }
     })
